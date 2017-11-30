@@ -38,6 +38,10 @@
     <Reference Include="System.XML">
       <HintPath>System.XML.dll</HintPath>
     </Reference>
+    <ProjectReference Include="..\Objects\WebLearning2016.Objects.csproj">
+      <Project>{6c951f1b-4fc8-45ad-9f27-a1f8a46dea34}</Project>
+      <Name>WebLearning2016.Objects</Name>
+    </ProjectReference>
     <Reference Include="log4net">
       <HintPath>..\packages\log4net.2.0.3\lib\net40-client\log4net.dll</HintPath>
     </Reference>
@@ -120,10 +124,6 @@
     <Reference Include="ICSSoft.STORMNET.UserDataTypes">
       <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.0.0\lib\net45\ICSSoft.STORMNET.UserDataTypes.dll</HintPath>
     </Reference>
-    <ProjectReference Include="..\Objects\WebLearning2016.Objects.csproj">
-      <Project>{6c951f1b-4fc8-45ad-9f27-a1f8a46dea34}</Project>
-      <Name>WebLearning2016.Objects</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="КлиентBS.cs">

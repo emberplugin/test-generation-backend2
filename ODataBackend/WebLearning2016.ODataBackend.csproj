@@ -44,6 +44,47 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="System">
+      <HintPath>System</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>System.Data</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>System.Core</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>System.Web</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>System.Web.Extensions</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>System.Net.Http</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>System.Xml.Linq</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>System.Drawing</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>System.Xml</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>System.Configuration</HintPath>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <HintPath>System.EnterpriseServices</HintPath>
+    </Reference>
+    <ProjectReference Include="..\Objects\WebLearning2016.Objects.csproj">
+      <Project>{6c951f1b-4fc8-45ad-9f27-a1f8a46dea34}</Project>
+      <Name>WebLearning2016.Objects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessServers\WebLearning2016.BusinessServers.csproj">
+      <Project>{98289c49-aba8-4114-a3c0-a343dcf8e57f}</Project>
+      <Name>WebLearning2016.BusinessServers</Name>
+    </ProjectReference>
     <Reference Include="System.Web.Cors">
       <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.3\lib\net45\System.Web.Cors.dll</HintPath>
     </Reference>
@@ -195,47 +236,6 @@
     <Reference Include="IIS.Caseberry.Logging.MsEntLib">
       <HintPath>..\packages\NewPlatform.Flexberry.LogService.Objects.2.0.0\lib\net35\IIS.Caseberry.Logging.MsEntLib.dll</HintPath>
     </Reference>
-    <Reference Include="System">
-      <HintPath>System</HintPath>
-    </Reference>
-    <Reference Include="System.Data">
-      <HintPath>System.Data</HintPath>
-    </Reference>
-    <Reference Include="System.Core">
-      <HintPath>System.Core</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-      <HintPath>System.Web</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Extensions">
-      <HintPath>System.Web.Extensions</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http">
-      <HintPath>System.Net.Http</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <HintPath>System.Xml.Linq</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing">
-      <HintPath>System.Drawing</HintPath>
-    </Reference>
-    <Reference Include="System.Xml">
-      <HintPath>System.Xml</HintPath>
-    </Reference>
-    <Reference Include="System.Configuration">
-      <HintPath>System.Configuration</HintPath>
-    </Reference>
-    <Reference Include="System.EnterpriseServices">
-      <HintPath>System.EnterpriseServices</HintPath>
-    </Reference>
-    <ProjectReference Include="..\Objects\WebLearning2016.Objects.csproj">
-      <Project>{6c951f1b-4fc8-45ad-9f27-a1f8a46dea34}</Project>
-      <Name>WebLearning2016.Objects</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BusinessServers\WebLearning2016.BusinessServers.csproj">
-      <Project>{98289c49-aba8-4114-a3c0-a343dcf8e57f}</Project>
-      <Name>WebLearning2016.BusinessServers</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

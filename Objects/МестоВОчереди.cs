@@ -266,7 +266,6 @@ namespace IIS.WebLearning2016
             get
             {
                 //  *** Start programmer edit section *** (МестоВОчереди.ОчередьСтр Get)
-
                 return null;
                 //  *** End programmer edit section *** (МестоВОчереди.ОчередьСтр Get)
             }
@@ -293,7 +292,6 @@ namespace IIS.WebLearning2016
             get
             {
                 //  *** Start programmer edit section *** (МестоВОчереди.ОчередьПредикт Get)
-
                 return null;
                 //  *** End programmer edit section *** (МестоВОчереди.ОчередьПредикт Get)
             }

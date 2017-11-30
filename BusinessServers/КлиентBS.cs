@@ -40,7 +40,6 @@ namespace IIS.WebLearning2016
         public virtual ICSSoft.STORMNET.DataObject[] OnUpdateКлиент(IIS.WebLearning2016.Клиент UpdatedObject)
         {
             //  *** Start programmer edit section *** (OnUpdateКлиент)
-
             return new ICSSoft.STORMNET.DataObject[0];
             //  *** End programmer edit section *** (OnUpdateКлиент)
         }

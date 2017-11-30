@@ -40,7 +40,6 @@ namespace IIS.WebLearning2016
         public virtual ICSSoft.STORMNET.DataObject[] OnUpdateМестоВОчереди(IIS.WebLearning2016.МестоВОчереди UpdatedObject)
         {
             //  *** Start programmer edit section *** (OnUpdateМестоВОчереди)
-
             return new ICSSoft.STORMNET.DataObject[0];
             //  *** End programmer edit section *** (OnUpdateМестоВОчереди)
         }
